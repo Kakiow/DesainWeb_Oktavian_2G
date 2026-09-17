@@ -52,7 +52,7 @@ function tampilkanError(input, pesan) {
 function hapusError(input) {
     const next = input.nextElementSibling;
     if (next && next.classList.contains("error")) {
-        next.remove;
+        next.remove();
     }
 }
 
