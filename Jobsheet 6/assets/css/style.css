@@ -236,6 +236,10 @@ footer {
         position: relative;
     }
 
+    .nav-open {
+        display: block;
+    }
+
     .nav-toggle-label {
         display: block;
     }
